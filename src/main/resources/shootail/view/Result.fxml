@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" styleClass="background-dark" stylesheets="@MainTheme.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="shootail.view.ResultController">
+   <children>
+      <VBox alignment="CENTER" layoutX="192.0" layoutY="78.0" spacing="16.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Label styleClass="title-label" stylesheets="@MainTheme.css" text="Result:" />
+            <GridPane hgap="16.0" styleClass="result-pane" stylesheets="@MainTheme.css">
+              <columnConstraints>
+                <ColumnConstraints halignment="RIGHT" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+              </columnConstraints>
+              <rowConstraints>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <children>
+                  <Label text="Name :" />
+                  <Label text="Score :" GridPane.rowIndex="1" />
+                  <Label layoutX="10.0" layoutY="47.0" text="Cocktail :" GridPane.rowIndex="2" />
+                  <Label layoutX="10.0" layoutY="77.0" text="Level :" GridPane.rowIndex="3" />
+                  <Label fx:id="nameLabel" layoutX="10.0" layoutY="17.0" GridPane.columnIndex="1" />
+                  <Label fx:id="scoreLabel" layoutX="10.0" layoutY="47.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                  <Label fx:id="cocktailLabel" layoutX="318.0" layoutY="42.0" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                  <Label fx:id="levelLabel" layoutX="10.0" layoutY="107.0" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+               </children>
+            </GridPane>
+            <Button mnemonicParsing="false" onAction="#handleDone" stylesheets="@MainTheme.css" text="DONE">
+               <styleClass>
+                  <String fx:value="wooden-button" />
+                  <String fx:value="long-button" />
+               </styleClass>
+            </Button>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

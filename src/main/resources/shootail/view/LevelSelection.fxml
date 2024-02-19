@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ButtonBar?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane prefHeight="520.0" prefWidth="800.0" styleClass="background-dark" stylesheets="@MainTheme.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="shootail.view.LevelSelectionController">
+   <children>
+      <BorderPane layoutX="16.0" layoutY="23.0" styleClass="background-light-brown" stylesheets="@MainTheme.css" AnchorPane.bottomAnchor="80.0" AnchorPane.leftAnchor="16.0" AnchorPane.rightAnchor="16.0" AnchorPane.topAnchor="55.0">
+         <center>
+            <SplitPane dividerPositions="0.7" stylesheets="@MainTheme.css" BorderPane.alignment="CENTER">
+              <items>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0" styleClass="background-dark-brown" stylesheets="@MainTheme.css">
+                     <children>
+                        <Label layoutX="61.0" layoutY="102.0" styleClass="title-label" stylesheets="@MainTheme.css" text="Cocktail List:" AnchorPane.leftAnchor="16.0" AnchorPane.topAnchor="8.0" />
+                        <ListView fx:id="cocktailListView" layoutX="230.0" layoutY="-58.0" prefHeight="200.0" prefWidth="200.0" styleClass="cocktail-list" stylesheets="@MainTheme.css" AnchorPane.bottomAnchor="16.0" AnchorPane.leftAnchor="16.0" AnchorPane.rightAnchor="16.0" AnchorPane.topAnchor="50.0" />
+                     </children></AnchorPane>
+                  <AnchorPane styleClass="selected-cocktail-pane" stylesheets="@MainTheme.css">
+                     <children>
+                        <VBox spacing="16.0" AnchorPane.bottomAnchor="16.0" AnchorPane.leftAnchor="16.0" AnchorPane.rightAnchor="16.0" AnchorPane.topAnchor="16.0">
+                           <children>
+                              <Label fx:id="selectedCocktailLabel" styleClass="title-label" stylesheets="@MainTheme.css" />
+                              <Label styleClass="sub-title-label" stylesheets="@MainTheme.css" text="Ingredients: " />
+                              <HBox fx:id="ingredientHBox" alignment="BASELINE_LEFT" prefHeight="100.0" prefWidth="200.0" spacing="16.0" />
+                              <Label styleClass="sub-title-label" stylesheets="@MainTheme.css" text="Recipe: " />
+                              <Label fx:id="recipeLabel" layoutX="10.0" layoutY="227.0" />
+                           </children>
+                        </VBox>
+                     </children>
+                  </AnchorPane>
+              </items>
+               <styleClass>
+                  <String fx:value="wooden-split-pane" />
+                  <String fx:value="background-light-brown" />
+               </styleClass>
+            </SplitPane>
+         </center>
+         <left>
+            <AnchorPane prefWidth="16.0" styleClass="wooden-stick-v" stylesheets="@MainTheme.css" BorderPane.alignment="CENTER" />
+         </left>
+         <top>
+            <AnchorPane prefHeight="20.0" styleClass="wooden-stick-h" stylesheets="@MainTheme.css" BorderPane.alignment="CENTER" />
+         </top>
+         <right>
+            <AnchorPane prefWidth="16.0" styleClass="wooden-stick-v" stylesheets="@MainTheme.css" BorderPane.alignment="CENTER" />
+         </right>
+         <bottom>
+            <AnchorPane prefHeight="20.0" styleClass="wooden-stick-h" stylesheets="@MainTheme.css" BorderPane.alignment="CENTER" />
+         </bottom>
+      </BorderPane>
+      <ButtonBar buttonMinWidth="50.0" nodeOrientation="RIGHT_TO_LEFT" AnchorPane.bottomAnchor="16.0" AnchorPane.leftAnchor="16.0">
+        <buttons>
+          <Button fx:id="hellButton" mnemonicParsing="false" prefHeight="50.0" prefWidth="100.0" stylesheets="@MainTheme.css" text="HELL">
+               <styleClass>
+                  <String fx:value="long-button" />
+                  <String fx:value="small" />
+                  <String fx:value="wooden-button" />
+               </styleClass></Button>
+            <Button fx:id="hardButton" mnemonicParsing="false" prefHeight="50.0" prefWidth="100.0" stylesheets="@MainTheme.css" text="HARD">
+               <styleClass>
+                  <String fx:value="long-button" />
+                  <String fx:value="small" />
+                  <String fx:value="wooden-button" />
+               </styleClass></Button>
+            <Button fx:id="normalButton" mnemonicParsing="false" prefHeight="50.0" prefWidth="100.0" stylesheets="@MainTheme.css" text="NORMAL">
+               <styleClass>
+                  <String fx:value="long-button" />
+                  <String fx:value="small" />
+                  <String fx:value="wooden-button" />
+               </styleClass></Button>
+            <Button fx:id="easyButton" mnemonicParsing="false" prefHeight="50.0" prefWidth="100.0" stylesheets="@MainTheme.css" text="EASY">
+               <styleClass>
+                  <String fx:value="long-button" />
+                  <String fx:value="small" />
+                  <String fx:value="wooden-button" />
+               </styleClass></Button>
+        </buttons>
+      </ButtonBar>
+      <HBox alignment="CENTER" layoutX="163.0" layoutY="286.0" AnchorPane.bottomAnchor="16.0" AnchorPane.rightAnchor="16.0">
+         <children>
+            <Label layoutX="10.0" layoutY="25.0" styleClass="small-label" stylesheets="@MainTheme.css" text="LEVEL: " textAlignment="CENTER" />
+            <Label fx:id="selectedLevelLabel" layoutX="10.0" layoutY="25.0" styleClass="small-label" stylesheets="@MainTheme.css" text="NORMAL" textAlignment="CENTER" />
+            <Label styleClass="small-label" stylesheets="@MainTheme.css" text="Time:  " textAlignment="CENTER">
+               <HBox.margin>
+                  <Insets left="16.0" />
+               </HBox.margin></Label>
+            <Label fx:id="timeLabel" layoutX="140.0" layoutY="25.0" styleClass="small-label" stylesheets="@MainTheme.css" text="0:00" textAlignment="CENTER">
+               <HBox.margin>
+                  <Insets right="16.0" />
+               </HBox.margin>
+            </Label>
+            <Button contentDisplay="CENTER" layoutX="183.0" layoutY="10.0" mnemonicParsing="false" onAction="#handleStart" prefHeight="50.0" prefWidth="100.0" stylesheets="@MainTheme.css" text="START">
+               <styleClass>
+                  <String fx:value="long-button" />
+                  <String fx:value="small" />
+                  <String fx:value="wooden-button" />
+               </styleClass></Button>
+         </children>
+      </HBox>
+      <Button layoutX="121.0" layoutY="1.0" mnemonicParsing="false" onAction="#handleBack" styleClass="backward-button" stylesheets="@MainTheme.css" text="&lt;  Level Selection" AnchorPane.leftAnchor="16.0" AnchorPane.topAnchor="0.0" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,326 @@
+[0m[[0m[31merror[0m] [0m[0m/Users/morristung/IdeaProjects/Shootail/src/main/scala/shootail/MainApp.scala:3:8: not found: object javafx[0m
+[0m[[0m[31merror[0m] [0m[0mimport javafx.scene.layout.BorderPane[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/morristung/IdeaProjects/Shootail/src/main/scala/shootail/MainApp.scala:9:8: not found: object javafx[0m
+[0m[[0m[31merror[0m] [0m[0mimport javafx.{scene => jfxs}[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/morristung/IdeaProjects/Shootail/src/main/scala/shootail/MainApp.scala:53:15: Symbol 'type javafx.fxml.FXMLLoader' is missing from the classpath.[0m
+[0m[[0m[31merror[0m] [0m[0mThis symbol is required by 'class scalafxml.core.FXMLLoader'.[0m
+[0m[[0m[31merror[0m] [0m[0mMake sure that type FXMLLoader is in your classpath and check for conflicting dependencies with `-Ylog-classpath`.[0m
+[0m[[0m[31merror[0m] [0m[0mA full rebuild may help if 'FXMLLoader.class' was compiled against an incompatible version of javafx.fxml.[0m
+[0m[[0m[31merror[0m] [0m[0m  val loader: FXMLLoader = new FXMLLoader(rootResource, NoDependencyResolver)[0m
+[0m[[0m[31merror[0m] [0m[0m              ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/morristung/IdeaProjects/Shootail/src/main/scala/shootail/MainApp.scala:54:10: value load is not a member of scalafxml.core.FXMLLoader[0m
+[0m[[0m[31merror[0m] [0m[0m  loader.load();[0m
+[0m[[0m[31merror[0m] [0m[0m         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/morristung/IdeaProjects/Shootail/src/main/scala/shootail/MainApp.scala:55:14: not found: type BorderPane[0m
+[0m[[0m[31merror[0m] [0m[0m  val roots: BorderPane = loader.getRoot[jfxs.layout.BorderPane]()[0m
+[0m[[0m[31merror[0m] [0m[0m             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/morristung/IdeaProjects/Shootail/src/main/scala/shootail/MainApp.scala:55:34: value getRoot is not a member of scalafxml.core.FXMLLoader[0m
+[0m[[0m[31merror[0m] [0m[0m  val roots: BorderPane = loader.getRoot[jfxs.layout.BorderPane]()[0m
+[0m[[0m[31merror[0m] [0m[0m                                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/morristung/IdeaProjects/Shootail/src/main/scala/shootail/MainApp.scala:55:42: not found: value jfxs[0m
+[0m[[0m[31merror[0m] [0m[0m  val roots: BorderPane = loader.getRoot[jfxs.layout.BorderPane]()[0m
+[0m[[0m[31merror[0m] [0m[0m                                         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/morristung/IdeaProjects/Shootail/src/main/scala/shootail/MainApp.scala:54:3: Symbol 'type javafx.event.EventTarget' is missing from the classpath.[0m
+[0m[[0m[31merror[0m] [0m[0mThis symbol is required by 'class scalafx.stage.Window'.[0m
+[0m[[0m[31merror[0m] [0m[0mMake sure that type EventTarget is in your classpath and check for conflicting dependencies with `-Ylog-classpath`.[0m
+[0m[[0m[31merror[0m] [0m[0mA full rebuild may help if 'Window.class' was compiled against an incompatible version of javafx.event.[0m
+[0m[[0m[31merror[0m] [0m[0m  loader.load();[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/morristung/IdeaProjects/Shootail/src/main/scala/shootail/MainApp.scala:60:5: Symbol 'type javafx.collections.ObservableList' is missing from the classpath.[0m
+[0m[[0m[31merror[0m] [0m[0mThis symbol is required by 'method scalafx.stage.Stage.icons'.[0m
+[0m[[0m[31merror[0m] [0m[0mMake sure that type ObservableList is in your classpath and check for conflicting dependencies with `-Ylog-classpath`.[0m
+[0m[[0m[31merror[0m] [0m[0mA full rebuild may help if 'Stage.class' was compiled against an incompatible version of javafx.collections.[0m
+[0m[[0m[31merror[0m] [0m[0m    icons += new Image(getClass.getResourceAsStream("images/shootail_logo.png"))[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/morristung/IdeaProjects/Shootail/src/main/scala/shootail/MainApp.scala:66:7: Symbol 'type javafx.collections.ObservableList' is missing from the classpath.[0m
+[0m[[0m[31merror[0m] [0m[0mThis symbol is required by 'method scalafx.scene.Scene.stylesheets'.[0m
+[0m[[0m[31merror[0m] [0m[0mMake sure that type ObservableList is in your classpath and check for conflicting dependencies with `-Ylog-classpath`.[0m
+[0m[[0m[31merror[0m] [0m[0mA full rebuild may help if 'Scene.class' was compiled against an incompatible version of javafx.collections.[0m
+[0m[[0m[31merror[0m] [0m[0m      stylesheets += getClass.getResource("view/MainTheme.css").toString[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/morristung/IdeaProjects/Shootail/src/main/scala/shootail/MainApp.scala:77:12: value load is not a member of scalafxml.core.FXMLLoader[0m
+[0m[[0m[31merror[0m] [0m[0m    loader.load()[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/morristung/IdeaProjects/Shootail/src/main/scala/shootail/MainApp.scala:78:24: value getRoot is not a member of scalafxml.core.FXMLLoader[0m
+[0m[[0m[31merror[0m] [0m[0m    val roots = loader.getRoot[jfxs.layout.AnchorPane][0m
+[0m[[0m[31merror[0m] [0m[0m                       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/morristung/IdeaProjects/Shootail/src/main/scala/shootail/MainApp.scala:78:32: not found: value jfxs[0m
+[0m[[0m[31merror[0m] [0m[0m    val roots = loader.getRoot[jfxs.layout.AnchorPane][0m
+[0m[[0m[31merror[0m] [0m[0m                               ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/morristung/IdeaProjects/Shootail/src/main/scala/shootail/MainApp.scala:85:12: value load is not a member of scalafxml.core.FXMLLoader[0m
+[0m[[0m[31merror[0m] [0m[0m    loader.load()[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/morristung/IdeaProjects/Shootail/src/main/scala/shootail/MainApp.scala:86:24: value getRoot is not a member of scalafxml.core.FXMLLoader[0m
+[0m[[0m[31merror[0m] [0m[0m    val roots = loader.getRoot[jfxs.layout.AnchorPane][0m
+[0m[[0m[31merror[0m] [0m[0m                       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/morristung/IdeaProjects/Shootail/src/main/scala/shootail/MainApp.scala:86:32: not found: value jfxs[0m
+[0m[[0m[31merror[0m] [0m[0m    val roots = loader.getRoot[jfxs.layout.AnchorPane][0m
+[0m[[0m[31merror[0m] [0m[0m                               ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/morristung/IdeaProjects/Shootail/src/main/scala/shootail/MainApp.scala:93:12: value load is not a member of scalafxml.core.FXMLLoader[0m
+[0m[[0m[31merror[0m] [0m[0m    loader.load()[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/morristung/IdeaProjects/Shootail/src/main/scala/shootail/MainApp.scala:94:24: value getRoot is not a member of scalafxml.core.FXMLLoader[0m
+[0m[[0m[31merror[0m] [0m[0m    val roots = loader.getRoot[jfxs.layout.AnchorPane][0m
+[0m[[0m[31merror[0m] [0m[0m                       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/morristung/IdeaProjects/Shootail/src/main/scala/shootail/MainApp.scala:94:32: not found: value jfxs[0m
+[0m[[0m[31merror[0m] [0m[0m    val roots = loader.getRoot[jfxs.layout.AnchorPane][0m
+[0m[[0m[31merror[0m] [0m[0m                               ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/morristung/IdeaProjects/Shootail/src/main/scala/shootail/MainApp.scala:101:12: value load is not a member of scalafxml.core.FXMLLoader[0m
+[0m[[0m[31merror[0m] [0m[0m    loader.load()[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/morristung/IdeaProjects/Shootail/src/main/scala/shootail/MainApp.scala:102:24: value getRoot is not a member of scalafxml.core.FXMLLoader[0m
+[0m[[0m[31merror[0m] [0m[0m    val roots = loader.getRoot[jfxs.layout.AnchorPane][0m
+[0m[[0m[31merror[0m] [0m[0m                       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/morristung/IdeaProjects/Shootail/src/main/scala/shootail/MainApp.scala:102:32: not found: value jfxs[0m
+[0m[[0m[31merror[0m] [0m[0m    val roots = loader.getRoot[jfxs.layout.AnchorPane][0m
+[0m[[0m[31merror[0m] [0m[0m                               ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/morristung/IdeaProjects/Shootail/src/main/scala/shootail/MainApp.scala:109:12: value load is not a member of scalafxml.core.FXMLLoader[0m
+[0m[[0m[31merror[0m] [0m[0m    loader.load()[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/morristung/IdeaProjects/Shootail/src/main/scala/shootail/MainApp.scala:110:24: value getRoot is not a member of scalafxml.core.FXMLLoader[0m
+[0m[[0m[31merror[0m] [0m[0m    val roots = loader.getRoot[jfxs.layout.AnchorPane][0m
+[0m[[0m[31merror[0m] [0m[0m                       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/morristung/IdeaProjects/Shootail/src/main/scala/shootail/MainApp.scala:110:32: not found: value jfxs[0m
+[0m[[0m[31merror[0m] [0m[0m    val roots = loader.getRoot[jfxs.layout.AnchorPane][0m
+[0m[[0m[31merror[0m] [0m[0m                               ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/morristung/IdeaProjects/Shootail/src/main/scala/shootail/MainApp.scala:117:12: value load is not a member of scalafxml.core.FXMLLoader[0m
+[0m[[0m[31merror[0m] [0m[0m    loader.load()[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/morristung/IdeaProjects/Shootail/src/main/scala/shootail/MainApp.scala:118:24: value getRoot is not a member of scalafxml.core.FXMLLoader[0m
+[0m[[0m[31merror[0m] [0m[0m    val roots = loader.getRoot[jfxs.layout.AnchorPane][0m
+[0m[[0m[31merror[0m] [0m[0m                       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/morristung/IdeaProjects/Shootail/src/main/scala/shootail/MainApp.scala:118:32: not found: value jfxs[0m
+[0m[[0m[31merror[0m] [0m[0m    val roots = loader.getRoot[jfxs.layout.AnchorPane][0m
+[0m[[0m[31merror[0m] [0m[0m                               ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/morristung/IdeaProjects/Shootail/src/main/scala/shootail/MainApp.scala:13:8: Symbol 'term javafx.scene' is missing from the classpath.[0m
+[0m[[0m[31merror[0m] [0m[0mThis symbol is required by 'class scalafx.scene.media.MediaPlayer'.[0m
+[0m[[0m[31merror[0m] [0m[0mMake sure that term scene is in your classpath and check for conflicting dependencies with `-Ylog-classpath`.[0m
+[0m[[0m[31merror[0m] [0m[0mA full rebuild may help if 'MediaPlayer.class' was compiled against an incompatible version of javafx.[0m
+[0m[[0m[31merror[0m] [0m[0mimport scalafx.scene.media.MediaPlayer.Status[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/morristung/IdeaProjects/Shootail/src/main/scala/shootail/MainApp.scala:125:30: value pause is not a member of scalafx.scene.media.MediaPlayer[0m
+[0m[[0m[31merror[0m] [0m[0m    if (isPlaying) bgmPlayer.pause() else bgmPlayer.play()[0m
+[0m[[0m[31merror[0m] [0m[0m                             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/morristung/IdeaProjects/Shootail/src/main/scala/shootail/MainApp.scala:125:53: value play is not a member of scalafx.scene.media.MediaPlayer[0m
+[0m[[0m[31merror[0m] [0m[0m    if (isPlaying) bgmPlayer.pause() else bgmPlayer.play()[0m
+[0m[[0m[31merror[0m] [0m[0m                                                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/morristung/IdeaProjects/Shootail/src/main/scala/shootail/MainApp.scala:130:23: value stop is not a member of scalafx.scene.media.MediaPlayer[0m
+[0m[[0m[31merror[0m] [0m[0m    buttonClickPlayer.stop()[0m
+[0m[[0m[31merror[0m] [0m[0m                      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/morristung/IdeaProjects/Shootail/src/main/scala/shootail/MainApp.scala:131:23: value play is not a member of scalafx.scene.media.MediaPlayer[0m
+[0m[[0m[31merror[0m] [0m[0m    buttonClickPlayer.play()[0m
+[0m[[0m[31merror[0m] [0m[0m                      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/morristung/IdeaProjects/Shootail/src/main/scala/shootail/model/Level.scala:3:8: Symbol 'term javafx.util' is missing from the classpath.[0m
+[0m[[0m[31merror[0m] [0m[0mThis symbol is required by 'class scalafx.util.Duration'.[0m
+[0m[[0m[31merror[0m] [0m[0mMake sure that term util is in your classpath and check for conflicting dependencies with `-Ylog-classpath`.[0m
+[0m[[0m[31merror[0m] [0m[0mA full rebuild may help if 'Duration.class' was compiled against an incompatible version of javafx.[0m
+[0m[[0m[31merror[0m] [0m[0mimport scalafx.util.Duration[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/morristung/IdeaProjects/Shootail/src/main/scala/shootail/util/CommonUtil.scala:8:34: value toMinutes is not a member of scalafx.util.Duration[0m
+[0m[[0m[31merror[0m] [0m[0m      val minute: Int = duration.toMinutes.toInt[0m
+[0m[[0m[31merror[0m] [0m[0m                                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/morristung/IdeaProjects/Shootail/src/main/scala/shootail/util/CommonUtil.scala:9:35: value toSeconds is not a member of scalafx.util.Duration[0m
+[0m[[0m[31merror[0m] [0m[0m      val second: Int = (duration.toSeconds % 60).toInt[0m
+[0m[[0m[31merror[0m] [0m[0m                                  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/morristung/IdeaProjects/Shootail/src/main/scala/shootail/util/CommonUtil.scala:14:49: Symbol 'type javafx.collections.ObservableList' is missing from the classpath.[0m
+[0m[[0m[31merror[0m] [0m[0mThis symbol is required by 'class scalafx.collections.ObservableBuffer'.[0m
+[0m[[0m[31merror[0m] [0m[0mMake sure that type ObservableList is in your classpath and check for conflicting dependencies with `-Ylog-classpath`.[0m
+[0m[[0m[31merror[0m] [0m[0mA full rebuild may help if 'ObservableBuffer.class' was compiled against an incompatible version of javafx.collections.[0m
+[0m[[0m[31merror[0m] [0m[0m  def listToObservableBuffer[A](list: List[A]): ObservableBuffer[A] = {[0m
+[0m[[0m[31merror[0m] [0m[0m                                                ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/morristung/IdeaProjects/Shootail/src/main/scala/shootail/view/GameController.scala:18:2: exception during macro expansion: [0m
+[0m[[0m[31merror[0m] [0m[0mscala.ScalaReflectionException: object javafx.scene.layout.AnchorPane in compiler mirror not found.[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.reflect.internal.Mirrors$RootsBase.staticClass(Mirrors.scala:141)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.reflect.internal.Mirrors$RootsBase.staticClass(Mirrors.scala:29)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scalafxml.core.macros.sfxmlMacro$.determineInputType$1(sfxmlMacro.scala:119)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scalafxml.core.macros.sfxmlMacro$.$anonfun$impl$8(sfxmlMacro.scala:165)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.collection.immutable.List.map(List.scala:293)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scalafxml.core.macros.sfxmlMacro$.impl(sfxmlMacro.scala:163)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.lang.reflect.Method.invoke(Method.java:578)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.reflect.macros.runtime.JavaReflectionRuntimes$JavaReflectionResolvers.$anonfun$resolveJavaReflectionRuntime$6(JavaReflectionRuntimes.scala:51)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.typechecker.Macros.macroExpandWithRuntime(Macros.scala:849)[0m
+[0m[[0m[31merror[0m] [0m[0m@sfxml[0m
+[0m[[0m[31merror[0m] [0m[0m ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/morristung/IdeaProjects/Shootail/src/main/scala/shootail/view/GameController.scala:43:5: Symbol 'type javafx.animation.Interpolator' is missing from the classpath.[0m
+[0m[[0m[31merror[0m] [0m[0mThis symbol is required by 'method scalafx.animation.Transition.interpolator'.[0m
+[0m[[0m[31merror[0m] [0m[0mMake sure that type Interpolator is in your classpath and check for conflicting dependencies with `-Ylog-classpath`.[0m
+[0m[[0m[31merror[0m] [0m[0mA full rebuild may help if 'Transition.class' was compiled against an incompatible version of javafx.animation.[0m
+[0m[[0m[31merror[0m] [0m[0m    interpolator = Interpolator.EaseBoth[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/morristung/IdeaProjects/Shootail/src/main/scala/shootail/view/GameController.scala:43:20: Symbol 'type javafx.animation.Interpolator' is missing from the classpath.[0m
+[0m[[0m[31merror[0m] [0m[0mThis symbol is required by 'method scalafx.animation.Interpolator.EaseBoth'.[0m
+[0m[[0m[31merror[0m] [0m[0mMake sure that type Interpolator is in your classpath and check for conflicting dependencies with `-Ylog-classpath`.[0m
+[0m[[0m[31merror[0m] [0m[0mA full rebuild may help if 'Interpolator.class' was compiled against an incompatible version of javafx.animation.[0m
+[0m[[0m[31merror[0m] [0m[0m    interpolator = Interpolator.EaseBoth[0m
+[0m[[0m[31merror[0m] [0m[0m                   ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/morristung/IdeaProjects/Shootail/src/main/scala/shootail/view/GameController.scala:53:5: Symbol 'type javafx.collections.ObservableList' is missing from the classpath.[0m
+[0m[[0m[31merror[0m] [0m[0mThis symbol is required by 'method scalafx.scene.layout.Pane.children'.[0m
+[0m[[0m[31merror[0m] [0m[0mMake sure that type ObservableList is in your classpath and check for conflicting dependencies with `-Ylog-classpath`.[0m
+[0m[[0m[31merror[0m] [0m[0mA full rebuild may help if 'Pane.class' was compiled against an incompatible version of javafx.collections.[0m
+[0m[[0m[31merror[0m] [0m[0m    ingredientHBox.children.add(cocktailImageView)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/morristung/IdeaProjects/Shootail/src/main/scala/shootail/view/GameController.scala:56:3: Symbol 'type javafx.event.EventHandler' is missing from the classpath.[0m
+[0m[[0m[31merror[0m] [0m[0mThis symbol is required by 'method scalafx.scene.Node.onMouseClicked'.[0m
+[0m[[0m[31merror[0m] [0m[0mMake sure that type EventHandler is in your classpath and check for conflicting dependencies with `-Ylog-classpath`.[0m
+[0m[[0m[31merror[0m] [0m[0mA full rebuild may help if 'Node.class' was compiled against an incompatible version of javafx.event.[0m
+[0m[[0m[31merror[0m] [0m[0m  shootingArea.onMouseClicked = (e) => gunShotEffect(e)[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/morristung/IdeaProjects/Shootail/src/main/scala/shootail/view/GameController.scala:103:5: Symbol 'type javafx.animation.KeyFrame' is missing from the classpath.[0m
+[0m[[0m[31merror[0m] [0m[0mThis symbol is required by 'method scalafx.animation.Timeline.keyFrames'.[0m
+[0m[[0m[31merror[0m] [0m[0mMake sure that type KeyFrame is in your classpath and check for conflicting dependencies with `-Ylog-classpath`.[0m
+[0m[[0m[31merror[0m] [0m[0mA full rebuild may help if 'Timeline.class' was compiled against an incompatible version of javafx.animation.[0m
+[0m[[0m[31merror[0m] [0m[0m    keyFrames.add(KeyFrame(Duration(1000), null, (_) => countDown()))[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/morristung/IdeaProjects/Shootail/src/main/scala/shootail/view/GameController.scala:104:5: Symbol 'type javafx.event.EventHandler' is missing from the classpath.[0m
+[0m[[0m[31merror[0m] [0m[0mThis symbol is required by 'method scalafx.animation.Animation.onFinished'.[0m
+[0m[[0m[31merror[0m] [0m[0mMake sure that type EventHandler is in your classpath and check for conflicting dependencies with `-Ylog-classpath`.[0m
+[0m[[0m[31merror[0m] [0m[0mA full rebuild may help if 'Animation.class' was compiled against an incompatible version of javafx.event.[0m
+[0m[[0m[31merror[0m] [0m[0m    onFinished = (_) => endGame()[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/morristung/IdeaProjects/Shootail/src/main/scala/shootail/view/GameController.scala:102:33: value toSeconds is not a member of scalafx.util.Duration[0m
+[0m[[0m[31merror[0m] [0m[0m    cycleCount = gameLevel.time.toSeconds.toInt[0m
+[0m[[0m[31merror[0m] [0m[0m                                ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/morristung/IdeaProjects/Shootail/src/main/scala/shootail/view/GameController.scala:104:19: missing parameter type[0m
+[0m[[0m[31merror[0m] [0m[0m    onFinished = (_) => endGame()[0m
+[0m[[0m[31merror[0m] [0m[0m                  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/morristung/IdeaProjects/Shootail/src/main/scala/shootail/view/GameController.scala:119:22: value getX is not a member of scalafx.scene.input.MouseEvent[0m
+[0m[[0m[31merror[0m] [0m[0m      translateX = e.getX - (this.fitWidth / 2).toDouble[0m
+[0m[[0m[31merror[0m] [0m[0m                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/morristung/IdeaProjects/Shootail/src/main/scala/shootail/view/GameController.scala:120:22: value getY is not a member of scalafx.scene.input.MouseEvent[0m
+[0m[[0m[31merror[0m] [0m[0m      translateY = e.getY - (this.fitHeight / 2).toDouble[0m
+[0m[[0m[31merror[0m] [0m[0m                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/morristung/IdeaProjects/Shootail/src/main/scala/shootail/view/GameController.scala:129:21: missing parameter type[0m
+[0m[[0m[31merror[0m] [0m[0m      onFinished = (_) => shootingArea.children.remove(shootEffect)[0m
+[0m[[0m[31merror[0m] [0m[0m                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/morristung/IdeaProjects/Shootail/src/main/scala/shootail/view/GameController.scala:152:21: value toMillis is not a member of scalafx.util.Duration[0m
+[0m[[0m[31merror[0m] [0m[0m    gameLevel.speed.toMillis + ((gameLevel.time.toMillis - (gameLevel.speed.toMillis * itemCount)) / (itemCount - 1))[0m
+[0m[[0m[31merror[0m] [0m[0m                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/morristung/IdeaProjects/Shootail/src/main/scala/shootail/view/GameController.scala:152:49: value toMillis is not a member of scalafx.util.Duration[0m
+[0m[[0m[31merror[0m] [0m[0m    gameLevel.speed.toMillis + ((gameLevel.time.toMillis - (gameLevel.speed.toMillis * itemCount)) / (itemCount - 1))[0m
+[0m[[0m[31merror[0m] [0m[0m                                                ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/morristung/IdeaProjects/Shootail/src/main/scala/shootail/view/GameController.scala:152:77: value toMillis is not a member of scalafx.util.Duration[0m
+[0m[[0m[31merror[0m] [0m[0m    gameLevel.speed.toMillis + ((gameLevel.time.toMillis - (gameLevel.speed.toMillis * itemCount)) / (itemCount - 1))[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/morristung/IdeaProjects/Shootail/src/main/scala/shootail/MainApp.scala:123:32: Symbol 'type javafx.beans.value.ObservableValue' is missing from the classpath.[0m
+[0m[[0m[31merror[0m] [0m[0mThis symbol is required by 'trait scalafx.beans.value.ObservableValue'.[0m
+[0m[[0m[31merror[0m] [0m[0mMake sure that type ObservableValue is in your classpath and check for conflicting dependencies with `-Ylog-classpath`.[0m
+[0m[[0m[31merror[0m] [0m[0mA full rebuild may help if 'ObservableValue.class' was compiled against an incompatible version of javafx.beans.value.[0m
+[0m[[0m[31merror[0m] [0m[0m    val playerStatus: String = bgmPlayer.status.value.toString;[0m
+[0m[[0m[31merror[0m] [0m[0m                               ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/morristung/IdeaProjects/Shootail/src/main/scala/shootail/view/GameController.scala:30:60: Symbol 'term javafx.beans.value' is missing from the classpath.[0m
+[0m[[0m[31merror[0m] [0m[0mThis symbol is required by 'value scalafx.beans.binding.NumberExpression.v'.[0m
+[0m[[0m[31merror[0m] [0m[0mMake sure that term value is in your classpath and check for conflicting dependencies with `-Ylog-classpath`.[0m
+[0m[[0m[31merror[0m] [0m[0mA full rebuild may help if 'NumberExpression.class' was compiled against an incompatible version of javafx.beans.[0m
+[0m[[0m[31merror[0m] [0m[0m  val aimImgCursor: ImageCursor = new ImageCursor(aimImg, (aimImg.width / 2).toDouble, (aimImg.height / 2).toDouble)[0m
+[0m[[0m[31merror[0m] [0m[0m                                                           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/morristung/IdeaProjects/Shootail/src/main/scala/shootail/view/GameController.scala:182:50: Symbol 'type javafx.beans.value.ObservableObjectValue' is missing from the classpath.[0m
+[0m[[0m[31merror[0m] [0m[0mThis symbol is required by 'method scalafx.beans.value.ObservableValue.sfxObservableValue2jfxObjectValue'.[0m
+[0m[[0m[31merror[0m] [0m[0mMake sure that type ObservableObjectValue is in your classpath and check for conflicting dependencies with `-Ylog-classpath`.[0m
+[0m[[0m[31merror[0m] [0m[0mA full rebuild may help if 'ObservableValue.class' was compiled against an incompatible version of javafx.beans.value.[0m
+[0m[[0m[31merror[0m] [0m[0m      fitWidth = targetSize * (targetImg.width / targetImg.height).toDouble[0m
+[0m[[0m[31merror[0m] [0m[0m                                                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/morristung/IdeaProjects/Shootail/src/main/scala/shootail/view/GameController.scala:182:48: overloaded method value / with alternatives:[0m
+[0m[[0m[31merror[0m] [0m[0m  (v: javafx.beans.value.ObservableNumberValue)scalafx.beans.binding.NumberBinding <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (v: Double)scalafx.beans.binding.NumberBinding <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (v: Float)scalafx.beans.binding.NumberBinding <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (v: Long)scalafx.beans.binding.NumberBinding <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (v: Int)scalafx.beans.binding.NumberBinding[0m
+[0m[[0m[31merror[0m] [0m[0m cannot be applied to (scalafx.beans.property.ReadOnlyDoubleProperty)[0m
+[0m[[0m[31merror[0m] [0m[0m      fitWidth = targetSize * (targetImg.width / targetImg.height).toDouble[0m
+[0m[[0m[31merror[0m] [0m[0m                                               ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/morristung/IdeaProjects/Shootail/src/main/scala/shootail/view/GameController.scala:193:25: missing parameter type[0m
+[0m[[0m[31merror[0m] [0m[0m      onMouseClicked = (_) => {[0m
+[0m[[0m[31merror[0m] [0m[0m                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/morristung/IdeaProjects/Shootail/src/main/scala/shootail/view/GameController.scala:222:21: missing parameter type[0m
+[0m[[0m[31merror[0m] [0m[0m      onFinished = (_) => {[0m
+[0m[[0m[31merror[0m] [0m[0m                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/morristung/IdeaProjects/Shootail/src/main/scala/shootail/view/HomeController.scala:11:2: exception during macro expansion: [0m
+[0m[[0m[31merror[0m] [0m[0mscala.ScalaReflectionException: object javafx.scene.control.Label in compiler mirror not found.[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.reflect.internal.Mirrors$RootsBase.staticClass(Mirrors.scala:141)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.reflect.internal.Mirrors$RootsBase.staticClass(Mirrors.scala:29)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scalafxml.core.macros.sfxmlMacro$.determineInputType$1(sfxmlMacro.scala:119)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scalafxml.core.macros.sfxmlMacro$.$anonfun$impl$8(sfxmlMacro.scala:165)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.collection.immutable.List.map(List.scala:293)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scalafxml.core.macros.sfxmlMacro$.impl(sfxmlMacro.scala:163)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.lang.reflect.Method.invoke(Method.java:578)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.reflect.macros.runtime.JavaReflectionRuntimes$JavaReflectionResolvers.$anonfun$resolveJavaReflectionRuntime$6(JavaReflectionRuntimes.scala:51)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.typechecker.Macros.macroExpandWithRuntime(Macros.scala:849)[0m
+[0m[[0m[31merror[0m] [0m[0m@sfxml[0m
+[0m[[0m[31merror[0m] [0m[0m ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/morristung/IdeaProjects/Shootail/src/main/scala/shootail/view/LevelSelectionController.scala:14:2: exception during macro expansion: [0m
+[0m[[0m[31merror[0m] [0m[0mscala.ScalaReflectionException: object javafx.scene.control.ListView in compiler mirror not found.[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.reflect.internal.Mirrors$RootsBase.staticClass(Mirrors.scala:141)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.reflect.internal.Mirrors$RootsBase.staticClass(Mirrors.scala:29)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scalafxml.core.macros.sfxmlMacro$.determineInputType$1(sfxmlMacro.scala:119)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scalafxml.core.macros.sfxmlMacro$.$anonfun$impl$8(sfxmlMacro.scala:165)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.collection.immutable.List.map(List.scala:293)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scalafxml.core.macros.sfxmlMacro$.impl(sfxmlMacro.scala:163)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.lang.reflect.Method.invoke(Method.java:578)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.reflect.macros.runtime.JavaReflectionRuntimes$JavaReflectionResolvers.$anonfun$resolveJavaReflectionRuntime$6(JavaReflectionRuntimes.scala:51)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.typechecker.Macros.macroExpandWithRuntime(Macros.scala:849)[0m
+[0m[[0m[31merror[0m] [0m[0m@sfxml[0m
+[0m[[0m[31merror[0m] [0m[0m ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/morristung/IdeaProjects/Shootail/src/main/scala/shootail/view/LevelSelectionController.scala:30:3: Symbol 'type javafx.scene.control.MultipleSelectionModel' is missing from the classpath.[0m
+[0m[[0m[31merror[0m] [0m[0mThis symbol is required by 'method scalafx.scene.control.ListView.selectionModel'.[0m
+[0m[[0m[31merror[0m] [0m[0mMake sure that type MultipleSelectionModel is in your classpath and check for conflicting dependencies with `-Ylog-classpath`.[0m
+[0m[[0m[31merror[0m] [0m[0mA full rebuild may help if 'ListView.class' was compiled against an incompatible version of javafx.scene.control.[0m
+[0m[[0m[31merror[0m] [0m[0m  cocktailListView.selectionModel.value.selectedItem.onChange((_, _, c) => selectCocktail(c))[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/morristung/IdeaProjects/Shootail/src/main/scala/shootail/view/LevelSelectionController.scala:34:3: Symbol 'type javafx.event.EventHandler' is missing from the classpath.[0m
+[0m[[0m[31merror[0m] [0m[0mThis symbol is required by 'method scalafx.scene.control.ButtonBase.onAction'.[0m
+[0m[[0m[31merror[0m] [0m[0mMake sure that type EventHandler is in your classpath and check for conflicting dependencies with `-Ylog-classpath`.[0m
+[0m[[0m[31merror[0m] [0m[0mA full rebuild may help if 'ButtonBase.class' was compiled against an incompatible version of javafx.event.[0m
+[0m[[0m[31merror[0m] [0m[0m  easyButton.onAction = (_) => selectLevel(Level.Easy)[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/morristung/IdeaProjects/Shootail/src/main/scala/shootail/view/LevelSelectionController.scala:34:26: missing parameter type[0m
+[0m[[0m[31merror[0m] [0m[0m  easyButton.onAction = (_) => selectLevel(Level.Easy)[0m
+[0m[[0m[31merror[0m] [0m[0m                         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/morristung/IdeaProjects/Shootail/src/main/scala/shootail/view/LevelSelectionController.scala:35:28: missing parameter type[0m
+[0m[[0m[31merror[0m] [0m[0m  normalButton.onAction = (_) => selectLevel(Level.Normal)[0m
+[0m[[0m[31merror[0m] [0m[0m                           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/morristung/IdeaProjects/Shootail/src/main/scala/shootail/view/LevelSelectionController.scala:36:26: missing parameter type[0m
+[0m[[0m[31merror[0m] [0m[0m  hardButton.onAction = (_) => selectLevel(Level.Hard)[0m
+[0m[[0m[31merror[0m] [0m[0m                         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/morristung/IdeaProjects/Shootail/src/main/scala/shootail/view/LevelSelectionController.scala:37:26: missing parameter type[0m
+[0m[[0m[31merror[0m] [0m[0m  hellButton.onAction = (_) => selectLevel(Level.Hell)[0m
+[0m[[0m[31merror[0m] [0m[0m                         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/morristung/IdeaProjects/Shootail/src/main/scala/shootail/view/RankController.scala:12:2: exception during macro expansion: [0m
+[0m[[0m[31merror[0m] [0m[0mscala.ScalaReflectionException: object javafx.scene.control.TableView in compiler mirror not found.[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.reflect.internal.Mirrors$RootsBase.staticClass(Mirrors.scala:141)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.reflect.internal.Mirrors$RootsBase.staticClass(Mirrors.scala:29)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scalafxml.core.macros.sfxmlMacro$.determineInputType$1(sfxmlMacro.scala:119)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scalafxml.core.macros.sfxmlMacro$.$anonfun$impl$8(sfxmlMacro.scala:165)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.collection.immutable.List.map(List.scala:293)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scalafxml.core.macros.sfxmlMacro$.impl(sfxmlMacro.scala:163)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.lang.reflect.Method.invoke(Method.java:578)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.reflect.macros.runtime.JavaReflectionRuntimes$JavaReflectionResolvers.$anonfun$resolveJavaReflectionRuntime$6(JavaReflectionRuntimes.scala:51)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.typechecker.Macros.macroExpandWithRuntime(Macros.scala:849)[0m
+[0m[[0m[31merror[0m] [0m[0m@sfxml[0m
+[0m[[0m[31merror[0m] [0m[0m ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/morristung/IdeaProjects/Shootail/src/main/scala/shootail/view/ResultController.scala:8:2: exception during macro expansion: [0m
+[0m[[0m[31merror[0m] [0m[0mscala.ScalaReflectionException: object javafx.scene.control.Label in compiler mirror not found.[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.reflect.internal.Mirrors$RootsBase.staticClass(Mirrors.scala:141)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.reflect.internal.Mirrors$RootsBase.staticClass(Mirrors.scala:29)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scalafxml.core.macros.sfxmlMacro$.determineInputType$1(sfxmlMacro.scala:119)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scalafxml.core.macros.sfxmlMacro$.$anonfun$impl$8(sfxmlMacro.scala:165)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.collection.immutable.List.map(List.scala:293)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scalafxml.core.macros.sfxmlMacro$.impl(sfxmlMacro.scala:163)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.lang.reflect.Method.invoke(Method.java:578)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.reflect.macros.runtime.JavaReflectionRuntimes$JavaReflectionResolvers.$anonfun$resolveJavaReflectionRuntime$6(JavaReflectionRuntimes.scala:51)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.typechecker.Macros.macroExpandWithRuntime(Macros.scala:849)[0m
+[0m[[0m[31merror[0m] [0m[0m@sfxml[0m
+[0m[[0m[31merror[0m] [0m[0m ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/morristung/IdeaProjects/Shootail/src/main/scala/shootail/view/RootLayoutController.scala:6:2: not found: value javafx[0m
+[0m[[0m[31merror[0m] [0m[0m@sfxml[0m
+[0m[[0m[31merror[0m] [0m[0m ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/morristung/IdeaProjects/Shootail/src/main/scala/shootail/view/RulesController.scala:6:2: not found: value javafx[0m
+[0m[[0m[31merror[0m] [0m[0m@sfxml[0m
+[0m[[0m[31merror[0m] [0m[0m ^[0m
+[0m[[0m[31merror[0m] [0m[0m70 errors found[0m

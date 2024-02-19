@@ -1,0 +1,228 @@
+.background-dark {
+    -fx-background-color: #0F121D;
+}
+.background-dark-brown {
+    -fx-background-color: #39210A;
+}
+.background-light-brown {
+    -fx-background-color: #472F16;
+}
+
+.label {
+    -fx-font-weight: 700;
+    -fx-font-family: "Pixelify Sans";
+    -fx-text-fill: #FFFFFF;
+}
+.small-label {
+    -fx-font-size: 12pt;
+    -fx-text-fill: #FFFFFF;
+    -fx-font-weight: 500;
+    -fx-font-family: "Pixelify Sans";
+}
+.large-label {
+    -fx-font-size: 16pt;
+    -fx-text-fill: #FFFFFF;
+    -fx-font-weight: 700;
+    -fx-font-family: "Pixelify Sans";
+}
+
+
+
+.background-bar {
+    -fx-background-image: url("../images/background_image.png");
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: contain;
+}
+.wooden-button {
+    -fx-cursor: hand;
+}
+.wooden-button:hover {
+    -fx-scale-x: 1.05;
+    -fx-scale-y: 1.05;
+}
+.wooden-button:pressed {
+    -fx-scale-x: 0.95;
+    -fx-scale-y: 0.95;
+}
+
+
+.long-button {
+    -fx-background-image: url("../images/wooden_button_long.png");
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: contain;
+    -fx-background-color: none;
+    -fx-text-fill: #FFFFFF;
+    -fx-font-size: 20pt;
+    -fx-font-weight: 500;
+    -fx-font-family: "Pixelify Sans";
+}
+.long-button.small {
+    -fx-font-size: 14pt;
+}
+
+
+.long-button.play {
+    -fx-background-image: url("../images/wooden_button_play.png");
+}
+.long-button.rules {
+    -fx-background-image: url("../images/wooden_button_rules.png");
+}
+.long-button.rank {
+    -fx-background-image: url("../images/wooden_button_rank.png");
+}
+
+
+.music-button {
+    -fx-background-image: url("../images/wooden_button_music.png");
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: contain;
+    -fx-background-color: none;
+}
+
+
+.backward-button {
+    -fx-cursor: hand;
+    -fx-background-color: none;
+    -fx-text-fill: #FFFFFF;
+    -fx-font-size: 20pt;
+    -fx-font-weight: 900;
+    -fx-font-family: "Pixelify Sans";
+}
+
+.menu-bar {
+    -fx-background-color: #0F121D;
+    -fx-text-fill: #FFFFFF;
+}
+
+.context-menu {
+    -fx-background-color: #0F121D;
+}
+
+.menu-bar .label {
+    -fx-text-fill: white;
+}
+.wooden-stick-v  {
+    -fx-background-image: url("../images/wooden_divider_v.png");
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: cover;
+    -fx-background-color: none;
+}
+.wooden-stick-h {
+    -fx-background-image: url("../images/wooden_divider_h.png");
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: cover;
+    -fx-background-color: none;
+}
+
+.wooden-split-pane {
+    /*-fx-background-image: url("../images/wooden_bg.png");*/
+
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: cover;
+    -fx-background-color: #472F16;
+}
+.wooden-split-pane .split-pane-divider {
+    -fx-background-image: url("../images/wooden_divider.png");
+    -fx-background-position: left;
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: cover;
+    -fx-background-color: none;
+}
+
+.name-input {
+    /*-fx-border-width: 0;*/
+    -fx-font-size: 16pt;
+    -fx-text-fill: #FFFFFF;
+    -fx-font-weight: 700;
+    -fx-font-family: "Pixelify Sans";
+    -fx-background-image: url("../images/input_field.png");
+    -fx-background-position: left;
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: contain;
+    -fx-background-color: none;
+
+}
+.cocktail-list {
+    -fx-cursor: hand;
+    -fx-background-color: none;
+    -fx-text-fill: #FFFFFF;
+    -fx-font-size: 20pt;
+    -fx-font-family: "Pixelify Sans";
+
+}
+
+.cocktail-list .indexed-cell {
+
+    -fx-text-fill: #FFFFFF;
+    -fx-font-weight: 500;
+
+    -fx-background-color: none;
+
+}
+
+.cocktail-list .indexed-cell:selected {
+    -fx-border-width: 2 0 2 0;
+    -fx-font-weight: 900;
+
+    -fx-border-color: #EEEEEE;
+    -fx-text-fill: #39210A;
+
+    -fx-background-color: #FFFFFF;
+}
+
+.selected-cocktail-pane {
+    /*-fx-fit-to-width: true;*/
+    /*-fx-fit-to-height: true;*/
+    -fx-background-color: none;
+
+}
+
+.title-label {
+    -fx-font-size: 20pt;
+}
+.selected-cocktail-pane .label {
+    -fx-text-fill: #FFFFFF;
+    -fx-font-size: 14pt;
+    -fx-font-family: "Pixelify Sans";
+
+}
+
+.selected-cocktail-pane .title-label {
+    -fx-font-size: 20pt;
+}
+.selected-cocktail-pane .sub-title-label {
+    -fx-font-size: 16pt;
+}
+.result-pane .label {
+    -fx-font-size: 16pt;
+}
+
+.rank-table .column-header-background .column-header{
+    -fx-background-color: #0F121D;
+    -fx-text-fill: #FFFFFF;
+    -fx-font-size: 16pt;
+    -fx-font-family: "Pixelify Sans";
+}
+
+.rank-table .indexed-cell {
+    -fx-background-color: #0F121D;
+    -fx-text-fill: #FFFFFF;
+    -fx-font-size: 16pt;
+    -fx-font-family: "Pixelify Sans";
+}
+.rules-title-label {
+    -fx-text-fill: #FFFFFF;
+    -fx-font-size: 20pt;
+    -fx-font-family: "Pixelify Sans";
+}
+.rules-label {
+    -fx-text-fill: #FFFFFF;
+    -fx-font-size: 16pt;
+    -fx-font-family: "Pixelify Sans";
+}
