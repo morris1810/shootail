@@ -1,6 +1,6 @@
 ----------------------------------------------------------------
-Mon Feb 19 12:18:49 MYT 2024:
-Booting Derby version The Apache Software Foundation - Apache Derby - 10.12.1.1 - (1704137): instance a816c00e-018d-bf96-83a5-0000069368c0 
+Tue Nov 12 00:11:12 MYT 2024:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.12.1.1 - (1704137): instance a816c00e-0193-1bfe-515c-000006925b40 
 on database directory /Users/morristung/IdeaProjects/Shootail/shootailDB with class loader sun.misc.Launcher$AppClassLoader@18b4aac2 
 Loaded from file:/Users/morristung/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/derby/derby/10.12.1.1/derby-10.12.1.1.jar
 java.vendor=Oracle Corporation
@@ -8,6 +8,6 @@ java.runtime.version=1.8.0_381-b09
 user.dir=/Users/morristung/IdeaProjects/Shootail
 os.name=Mac OS X
 os.arch=aarch64
-os.version=14.3.1
+os.version=15.0.1
 derby.system.home=null
 Database Class Loader started - derby.database.classpath=''

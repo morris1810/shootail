@@ -24,3 +24,4 @@ Shootail turns cocktail mixing into an adventurous game where your aim is to hit
 ![Demo screenshot](example/home.png "Home")
 ![Demo screenshot](example/levelSelection.png "Level Selection")
 ![Demo screenshot](example/game.png "Game")
+![Demo gif animation](example/demo.gif "Demo")
