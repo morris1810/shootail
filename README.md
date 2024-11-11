@@ -1,3 +1,5 @@
+![Demo gif animation](example/demo.gif "**Demo**")
+
 # Shootail
 
 Welcome to Shootail, an engaging cocktail-shooting game built with Scala and ScalaFx. This unique game invites players to mix fun with precision as they aim and shoot at ingredients to create delicious cocktails.
@@ -24,4 +26,3 @@ Shootail turns cocktail mixing into an adventurous game where your aim is to hit
 ![Demo screenshot](example/home.png "Home")
 ![Demo screenshot](example/levelSelection.png "Level Selection")
 ![Demo screenshot](example/game.png "Game")
-![Demo gif animation](example/demo.gif "Demo")
